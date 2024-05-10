@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+      "outDir": "dist",
+      "sourceMap": true,
+      "target": "ESNext",
+      "module": "CommonJS",
+      "esModuleInterop": true,
+      "forceConsistentCasingInFileNames": true,
+      "noImplicitAny": true,
+      "skipLibCheck": true,
+      "types": ["node", "@daochild/tronweb-typescript"]
+  },
+  "include": ["./server/*.ts", "source/index.ts"]
+}
